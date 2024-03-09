@@ -1,0 +1,231 @@
+@media only screen and (max-width: 767px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+    }
+    
+    nav div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+    }
+    
+    .title-div {
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    nav h4 {
+        text-align: center;
+      
+        font-family: 'Brush Script MT', cursive;
+        font-size: 1.4rem;
+    }
+    
+    nav p {
+        text-align: center;
+        font-size: 1.1rem;
+       
+        font-weight: bolder;
+    }
+    
+    nav a {
+        text-align: center;
+        width: 25%;
+        font-size: 1.1rem;
+        text-decoration: none;
+       
+    }
+
+    /*----------------------------------------------------------------*/
+    .main-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-block: 1rem;
+    }
+    
+    .text1,
+    .for-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: auto;
+        width: 90%;
+    }
+    
+   
+    .text1 h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 1rem;
+        margin-inline: 1rem;
+       
+        font-weight: bolder;
+        
+    }
+    
+    .for-img img {
+        width: 20rem;
+        text-align: center;
+        
+        justify-items: center;
+    }
+    
+    .text1 p {
+        font-size: 1rem;
+       
+        margin: auto;
+        text-align: center;
+    }
+
+
+
+    .title-aboutus{
+        margin-top: 2rem;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.4rem;
+       
+    }
+    .about-us{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-block: 1rem;
+    }
+    .text2{
+        margin: auto;
+        padding: auto;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 70%;
+    }
+    .for-img2{
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+        display: block;
+    }
+    .for-img2 img{
+       width:  22rem;
+    }
+    
+    .text2 p{
+        font-size: 1.2rem;
+       
+    }
+    .text2 h5{
+       
+        font-size: 1.4rem;
+    }
+    
+    .text2 li{
+        font-size: 1.2rem;
+    }
+
+
+    .menu-rows {
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Book-card {
+       
+        width: 14rem;
+        height: fit-content;
+        border-radius: 5%;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding: auto;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .Book-card img {
+        margin: auto;
+        margin-top: 1rem;
+        display: block;
+        width: 13.5rem;
+    }
+
+    .Book-card h3 {
+        font-size: 1.2rem;
+        text-align: center;
+      
+        margin: 1rem;
+    }
+
+
+    .order-text {
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        font-size: 1rem;
+       
+        margin-bottom: 2rem;
+        margin-inline:1rem;
+    }
+
+    .order {
+        width: 100%;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-block: 3rem;
+    }
+
+    .social i {
+margin: 1rem;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        font-size: 5rem;
+        
+    }
+
+    .social i:hover {
+        margin: 1rem;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem;
+        font-size: 5rem;
+    
+        border-radius: 50%;
+        animation-name: spin;
+        animation-duration: 1.4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        transition: none;
+    }
+    
+    footer {
+        margin: 0;
+        padding: 0;
+        padding-top: 2rem;
+        background-image: linear-gradient(to right, #40041e, #522343);
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
